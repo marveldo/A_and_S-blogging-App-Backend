@@ -22,6 +22,7 @@ to create migration files then
 python manage.py migrate
 ```
 to migrate those changes to the database 
+
 5. Start server.
  ```sh
  python management.py runserver 
