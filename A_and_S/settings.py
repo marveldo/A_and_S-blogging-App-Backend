@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "drf_spectacular"
+    "drf_spectacular",
+    "user"
 ]
 
 REST_FRAMEWORK = {
@@ -131,6 +132,8 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
+
+AUTH_USER_MODEL = "user.User"
 
 
 # Static files (CSS, JavaScript, Images)
